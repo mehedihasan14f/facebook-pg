@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/***** header-section-start *****/
+
+.header-section {background: #3D5A99;
+    padding: 15px 0 3px;
+}
+.container {
+    width: 1060px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.logo {
+    width: 55%;
+    float: left;
+}
+.logo img {
+    width: 200px;
+    margin-left: 12px;
+}
+
+.login {
+    width: 45%;
+    float: left;
+}
+.logon form {}
+.login ul {
+    text-align: right;
+}
+.login ul li {
+    list-style: none;
+    color: #fff;
+    margin-right: 10px;
+    display: inline-block;
+    vertical-align: text-top;
+}
+.login label {
+    display: block;
+    font-size: 14px;
+    text-align: left;
+    margin-bottom: 3px;
+}
+.login input {
+    border: 0.5px solid #000;
+    padding: 3px 0;
+}
+.login a {
+    display: block;
+    color: #a1b2d6;
+    text-align: left;
+    font-size: 14px;
+    text-decoration: none;
+    margin-top: 5px;
+}
+.login a:hover {
+    text-decoration-line: underline;
+}
+.login-button {
+    background: #4267b2;
+    border: 0.5px solid #29487d  !important;
+    color: #fff;
+    padding: 4px 5px !important;
+    margin-top: 17px; 
+}
+.login-button:hover {
+    background: #3D5A99;
+}
+
+/***** header-section-end *****/
+
+/***** signup-section-start *****/
+
+.signup-section {
+    height: 90vh;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fefeff+0,dbdfec+100 */
+background: #fefeff; /* Old browsers */
+background: -moz-linear-gradient(top, #fefeff 0%, #dbdfec 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #fefeff 0%,#dbdfec 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #fefeff 0%,#dbdfec 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefeff', endColorstr='#dbdfec',GradientType=0 ); /* IE6-9 */
+}
+.facebook-map {
+    width: 55%;
+    float: left; 
+}
+.facebook-map h4 {
+    color: #0e385f;
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 29px;
+    margin-top: 40px;
+    width: 450px;
+    margin-left: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+.facebook-map img {
+        margin-left: 30px;
+}
+
+.signup-content {
+    width: 45%;
+    float: left;
+}
+.signup-content h1 {
+    color: #333333;
+    font-size: 35px;
+    margin: 25px 0 10px;
+}
+.signup-content p {
+    font-size: 21px;
+    margin-bottom: 13px;
+    margin-top: 10px;
+}
+.signup-content form {}
+.signup-content form ul {}
+.signup-content form ul li {
+    list-style: none;
+    width: 50%;
+    float: left;
+}
+.signup-content form ul li input {}
+
+.signup-content form input {
+    width: 100%;
+    padding: 9px;
+    margin-bottom: 10px;
+    border: 1px solid #c9d0e8;
+    border-radius: 6px;
+}
+.signup-content form input[type="text"] {
+    font-size: 18px;
+}
+.signup-content form input[type="password"] {
+    font-size: 18px;
+}
+.signup-content form select {
+    width: 13%;
+    padding: 5px 5px;
+    margin-bottom: 10px;
+    border: 1px solid #c9d0e8;
+}
+.signup-content form select option {}
+
+.signup-content form a {
+    color: #2452a9;
+    max-width: 154px;
+    font-size: 12px;
+    display: inline-block;
+    margin-left: 5px;
+    line-height: 16px;
+    text-decoration: none;
+    vertical-align: middle;
+}
+.signup-content form a:hover {
+    text-decoration: underline;
+}
+.signup-content form span {
+    color: #454856;
+    font-size: 12px;
+    line-height: 12px;
+    display: block;
+    max-width: 308px;
+    margin-bottom: 18px;
+}
+.signup-content form input[type="radio"] {
+    width: auto;
+    margin: 10px 5px 18px;
+}
+
+.signup_button {
+    width: auto !important;
+    padding: 8px 65px !important;
+    color: #fff;
+    font-size: 18px;
+    border: 1px solid #37522e !important;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#74b45f+0,5a8d46+100 */
+background: #74b45f; /* Old browsers */
+background: -moz-linear-gradient(top, #74b45f 0%, #5a8d46 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #74b45f 0%,#5a8d46 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #74b45f 0%,#5a8d46 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#74b45f', endColorstr='#5a8d46',GradientType=0 ); /* IE6-9 */
+}
+.signup_button:hover {
+    background: #67A052;
+}
+
+
+/***** signup-section-end *****/
+
+/***** footer-section-start *****/
+
+.footer-section {
+    margin: 20px 30px;
+}
+
+.list {
+    margin: 35px 0;
+}
+.list span {
+    width: 10%;
+    float: left;
+}
+.list ul {
+    width: 90%;
+    float: left;
+}
+.list ul li {
+    float: left;
+    list-style: none;
+    margin-right: 10px;
+    font-size: 15px;
+}
+.list ul li a {
+    text-decoration: none;
+    color: #7058A6;
+}
+.list ul li a:hover {
+    text-decoration: underline;
+}
+.list .icon {
+    background: #efefef;
+    padding: 2px 12px;
+    /* display: inline-block; */
+    border: 1px solid #a48fcc;
+    text-decoration: none;
+    border-radius: 3px;
+}
+.list .icon:hover {
+    background: #aeccda;
+}
+
+/***** footer-section-end *****/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
